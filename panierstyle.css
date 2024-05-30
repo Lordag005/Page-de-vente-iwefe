@@ -1,0 +1,37 @@
+/* Styles spécifiques pour la page de paiement */
+.payment-form {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 2em;
+  }
+  
+  .payment-form h2 {
+    margin-bottom: 1em;
+  }
+  
+  .payment-form p {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+  
+  .payment-link {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-link:hover {
+    background-color: #555;
+  }
+  

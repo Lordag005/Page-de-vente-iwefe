@@ -1,0 +1,43 @@
+/* Réinitialisation des marges et des paddings */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles généraux */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+  }
+  
+  .payment-form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .payment-link {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    margin-top: 1em;
+  }
+  

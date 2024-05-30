@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paiement</title>
+<link rel="stylesheet" href="panierstyle.css">
+</head>
+<body>
+<header>
+  <h1>Page de Paiement</h1>
+</header>
+<main>
+  <section class="payment-form">
+    <h2>Finaliser le Paiement</h2>
+    <p>Montant à payer : $<span id="payment-amount"></span></p>
+    <a class="payment-link" href="https://example.com/payment">Payer avec FedaPay</a>
+  </section>
+</main>
+<footer>
+  <p>&copy; MISSEBO SHOP</p>
+</footer>
+<script>
+    // Récupère le montant depuis les paramètres d'URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const paymentAmount = urlParams.get('total');
+  
+    // Affiche le montant dans la page
+    const paymentAmountElement = document.getElementById('payment-amount');
+    paymentAmountElement.textContent = paymentAmount;
+  </script>
+</body>
+</html>
